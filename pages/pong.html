@@ -1,10 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Pong Game</title>
+    <link rel="stylesheet" href="style/game.css">
 </head>
 <body>
-$END$
+<div id="gameContainer">
+    <canvas id="gameCanvas" width="800" height="400"></canvas>
+    <div class="paddle" id="paddle1" style="left: 10px; top: 160px;"></div>
+    <div class="paddle" id="paddle2" style="left: 780px; top: 160px;"></div>
+    <div id="ball" style="left: 390px; top: 190px;"></div>
+    <div class="score" id="score1" style="left: 350px;">0</div>
+    <div class="score" id="score2" style="left: 450px;">0</div>
+</div>
+<script src="scripts/game.js"></script>
 </body>
 </html>

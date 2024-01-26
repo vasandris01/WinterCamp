@@ -1,0 +1,35 @@
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+      #gameContainer {
+        position: relative;
+        border: 2px solid black;
+      }
+      canvas {
+        display: block;
+        margin: 0 auto;
+        border: 1px solid black;
+      }
+      .paddle {
+        position: absolute;
+        background-color: black;
+        width: 10px;
+        height: 80px;
+      }
+      #ball {
+        position: absolute;
+        background-color: black;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+      }
+      .score {
+        position: absolute;
+        font-size: 24px;
+        color: black;
+        top: 10px;
+      }
